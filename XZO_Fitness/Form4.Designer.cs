@@ -58,16 +58,18 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(484, 172);
+            this.dateTimePicker1.Location = new System.Drawing.Point(363, 140);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(343, 21);
+            this.dateTimePicker1.Size = new System.Drawing.Size(258, 21);
             this.dateTimePicker1.TabIndex = 89;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label11.Location = new System.Drawing.Point(481, 92);
+            this.label11.Location = new System.Drawing.Point(361, 75);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(119, 14);
             this.label11.TabIndex = 88;
@@ -77,18 +79,19 @@
             // 
             this.textBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox8.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox8.Location = new System.Drawing.Point(484, 110);
+            this.textBox8.Location = new System.Drawing.Point(363, 89);
+            this.textBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(343, 24);
+            this.textBox8.Size = new System.Drawing.Size(258, 24);
             this.textBox8.TabIndex = 87;
             // 
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(751, 230);
+            this.radioButton2.Location = new System.Drawing.Point(563, 187);
             this.radioButton2.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(71, 20);
+            this.radioButton2.Size = new System.Drawing.Size(59, 17);
             this.radioButton2.TabIndex = 86;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Female";
@@ -97,10 +100,10 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(484, 230);
+            this.radioButton1.Location = new System.Drawing.Point(363, 187);
             this.radioButton1.Margin = new System.Windows.Forms.Padding(2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(55, 20);
+            this.radioButton1.Size = new System.Drawing.Size(48, 17);
             this.radioButton1.TabIndex = 85;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Male";
@@ -110,16 +113,18 @@
             // 
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox5.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox5.Location = new System.Drawing.Point(484, 409);
+            this.textBox5.Location = new System.Drawing.Point(363, 332);
+            this.textBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(343, 24);
+            this.textBox5.Size = new System.Drawing.Size(258, 24);
             this.textBox5.TabIndex = 84;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label10.Location = new System.Drawing.Point(481, 392);
+            this.label10.Location = new System.Drawing.Point(361, 318);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(107, 14);
             this.label10.TabIndex = 83;
@@ -129,17 +134,19 @@
             // 
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox6.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox6.Location = new System.Drawing.Point(484, 285);
+            this.textBox6.Location = new System.Drawing.Point(363, 232);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(343, 88);
+            this.textBox6.Size = new System.Drawing.Size(258, 72);
             this.textBox6.TabIndex = 82;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label9.Location = new System.Drawing.Point(481, 268);
+            this.label9.Location = new System.Drawing.Point(361, 218);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(51, 14);
             this.label9.TabIndex = 81;
@@ -149,7 +156,8 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label8.Location = new System.Drawing.Point(481, 213);
+            this.label8.Location = new System.Drawing.Point(361, 173);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(47, 14);
             this.label8.TabIndex = 80;
@@ -159,7 +167,8 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label7.Location = new System.Drawing.Point(481, 154);
+            this.label7.Location = new System.Drawing.Point(361, 125);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(76, 14);
             this.label7.TabIndex = 79;
@@ -169,16 +178,18 @@
             // 
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox4.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox4.Location = new System.Drawing.Point(90, 468);
+            this.textBox4.Location = new System.Drawing.Point(68, 380);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(343, 24);
+            this.textBox4.Size = new System.Drawing.Size(258, 24);
             this.textBox4.TabIndex = 78;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label6.Location = new System.Drawing.Point(90, 447);
+            this.label6.Location = new System.Drawing.Point(68, 363);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(87, 14);
             this.label6.TabIndex = 77;
@@ -188,16 +199,18 @@
             // 
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox3.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox3.Location = new System.Drawing.Point(90, 410);
+            this.textBox3.Location = new System.Drawing.Point(68, 333);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(343, 24);
+            this.textBox3.Size = new System.Drawing.Size(258, 24);
             this.textBox3.TabIndex = 76;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label5.Location = new System.Drawing.Point(90, 392);
+            this.label5.Location = new System.Drawing.Point(68, 318);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 14);
             this.label5.TabIndex = 75;
@@ -207,16 +220,18 @@
             // 
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox2.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox2.Location = new System.Drawing.Point(90, 351);
+            this.textBox2.Location = new System.Drawing.Point(68, 285);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(343, 24);
+            this.textBox2.Size = new System.Drawing.Size(258, 24);
             this.textBox2.TabIndex = 74;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label4.Location = new System.Drawing.Point(88, 333);
+            this.label4.Location = new System.Drawing.Point(66, 271);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(64, 14);
             this.label4.TabIndex = 73;
@@ -226,16 +241,18 @@
             // 
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox1.Font = new System.Drawing.Font("Calibri", 10F);
-            this.textBox1.Location = new System.Drawing.Point(90, 294);
+            this.textBox1.Location = new System.Drawing.Point(68, 239);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(343, 24);
+            this.textBox1.Size = new System.Drawing.Size(258, 24);
             this.textBox1.TabIndex = 72;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Calibri", 8.5F);
-            this.label3.Location = new System.Drawing.Point(88, 276);
+            this.label3.Location = new System.Drawing.Point(66, 224);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 14);
             this.label3.TabIndex = 71;
@@ -245,7 +262,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(61, 21);
+            this.label1.Location = new System.Drawing.Point(46, 17);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(153, 19);
             this.label1.TabIndex = 70;
@@ -259,9 +277,10 @@
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(249, 230);
+            this.button1.Location = new System.Drawing.Point(77, 188);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 28);
+            this.button1.Size = new System.Drawing.Size(86, 23);
             this.button1.TabIndex = 69;
             this.button1.Text = "Upload Photo";
             this.button1.UseVisualStyleBackColor = false;
@@ -269,10 +288,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(694, 459);
+            this.button3.Location = new System.Drawing.Point(520, 373);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(133, 33);
+            this.button3.Size = new System.Drawing.Size(100, 27);
             this.button3.TabIndex = 67;
             this.button3.Text = "Clear All";
             this.button3.UseVisualStyleBackColor = true;
@@ -280,10 +299,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Calibri", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(484, 459);
+            this.button2.Location = new System.Drawing.Point(363, 373);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(133, 33);
+            this.button2.Size = new System.Drawing.Size(100, 27);
             this.button2.TabIndex = 66;
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = true;
@@ -292,18 +311,19 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::XZO_Fitness.Properties.Resources.addimg;
-            this.pictureBox1.Location = new System.Drawing.Point(238, 93);
+            this.pictureBox1.Location = new System.Drawing.Point(68, 77);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(136, 136);
+            this.pictureBox1.Size = new System.Drawing.Size(102, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 68;
             this.pictureBox1.TabStop = false;
             // 
             // Form4
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 519);
+            this.ClientSize = new System.Drawing.Size(698, 422);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox8);
@@ -329,6 +349,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form4";
             this.Text = "Form4";
             this.Load += new System.EventHandler(this.Form4_Load);
