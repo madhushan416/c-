@@ -23,21 +23,35 @@ namespace XZO_Fitness
         public Form4()
         {
             InitializeComponent();
-        }
 
-        public class counter_class
-        {
-            public string cnt { get; set; }
+            // Hook button1 click event for selecting image
+            button1.Click += button1_Click;
         }
 
         private async void Form4_Load(object sender, EventArgs e)
         {
             Client = new FireSharp.FirebaseClient(config);
-
-            // Save the default image from pictureBox1 on form load
             defaultImage = pictureBox1.Image;
         }
 
+        // Button1: Browse and load image into pictureBox1
+        private void button1_Click(object sender, EventArgs e)
+        {
+            using (OpenFileDialog ofd = new OpenFileDialog())
+            {
+                ofd.Title = "Select Image";
+                ofd.Filter = "Image Files (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
+
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    Image img = Image.FromFile(ofd.FileName);
+                    // Optional: resize thumbnail to fit pictureBox1
+                    pictureBox1.Image = img.GetThumbnailImage(pictureBox1.Width, pictureBox1.Height, null, IntPtr.Zero);
+                }
+            }
+        }
+
+        // Button2: Register data with image (your existing code)
         private async void button2_Click(object sender, EventArgs e)
         {
             FirebaseResponse resp = await Client.GetTaskAsync("counter/node");
@@ -91,19 +105,18 @@ namespace XZO_Fitness
                 ImageBase64 = imageBase64
             };
 
-            // Save user data under root/information/{RegNumber}
             SetResponse response = await Client.SetTaskAsync("information/" + data.RegNumber, data);
             Data result = response.ResultAs<Data>();
 
             MessageBox.Show("Registration Successfully " + result.RegNumber);
 
-            // Update counter node under root/counter/node
             var obj = new counter_class { cnt = data.RegNumber };
             await Client.SetTaskAsync("counter/node", obj);
 
             ClearForm();
             textBox1.Focus();
         }
+
         private void ClearForm()
         {
             textBox1.Clear();
@@ -116,7 +129,7 @@ namespace XZO_Fitness
             radioButton1.Checked = false;
             radioButton2.Checked = false;
             dateTimePicker1.Value = DateTime.Today;
-            pictureBox1.Image = defaultImage; // Reset to original image
+            pictureBox1.Image = defaultImage;
         }
 
     }
